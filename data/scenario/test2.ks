@@ -131,3 +131,13 @@ element.remove();
 
 [_tb_end_tyrano_code]
 
+[tb_start_tyrano_code]
+[layopt layer=0 visible=true]
+[ptext layer="0" name="link1" text="ウェザーニュース https://weathernews.jp/s/topics/201910/110185/より" x=550 y=10 color=white]
+
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[free name="link1" layer="0"]
+[_tb_end_tyrano_code]
+

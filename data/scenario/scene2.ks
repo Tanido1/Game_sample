@@ -25,7 +25,7 @@
 
 [tb_start_tyrano_code]
 [html]
-<p style="position:fixed; bottom:40px; font-size:20px;" id="maplink"><a href='https://goo.gl/maps/hBbtSbx7eXP1geCeA' target='_blank' rel='noopener noreferrer'>https://goo.gl/maps/hBbtSbx7eXP1geCeA</a></p>
+<p style="position:fixed; bottom:40px; font-size:20px;" id="maplink"><a href='https://goo.gl/maps/hBbtSbx7eXP1geCeA' target='_blank' rel='noopener noreferrer'>"https://goo.gl/maps/hBbtSbx7eXP1geCeA"より</a></p>
 [endhtml]
 [_tb_end_tyrano_code]
 
@@ -51,20 +51,22 @@ element.remove();
 [endhtml]
 [_tb_end_tyrano_code]
 
+[tb_start_tyrano_code]
+[html]
+<p style="position:fixed; bottom:40px; font-size:20px;" id="link1"><a href='https://weathernews.jp/s/topics/201910/110185/' target='_blank' rel='noopener noreferrer'>"https://weathernews.jp/s/topics/201910/110185/"より</a></p>
+[endhtml]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 ちょうど土日に直撃か．気をつけないとな．まだ今日は大丈夫そうだな．[p]
 とにかく今日は帰ろう．[p]
 [_tb_end_text]
 
-[tb_start_tyrano_code]
-[layopt layer=0 visible=true]
-[ptext layer="0" name="link1" text="ウェザーニュース https://weathernews.jp/s/topics/201910/110185/より" x=550 y=10 color=black]
-
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
-[free name="link1" layer="0"]
-[_tb_end_tyrano_code]
+[l  ]
+[iscript]
+const element = document.getElementById('link1');
+element.remove();
+[endscript]
 
 [iscript]
 const element = document.getElementById('sinrozu');

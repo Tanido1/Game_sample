@@ -4,72 +4,79 @@
 [mask_off time=10]
 *start
 
-[tb_start_tyrano_code]
-;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" role="sleepgame" auto_next=no]
-
-[_tb_end_tyrano_code]
-
-[tb_ptext_hide  time="1000"  ]
 [tb_hide_message_window  ]
 [tb_show_message_window  ]
-[tb_eval  exp="f.hour=25"  name="hour"  cmd="="  op="t"  val="25"  val_2="undefined"  ]
-[tb_eval  exp="f.minute=12"  name="minute"  cmd="="  op="t"  val="12"  val_2="undefined"  ]
-[tb_eval  exp="f.nextHour=25"  name="nextHour"  cmd="="  op="t"  val="25"  val_2="undefined"  ]
-[jump  storage="scene26.ks"  target="*common0"  cond="f.hinanFlag=='false'"  ]
-[jump  storage="scene26.ks"  target="*common0"  cond="f.LBFlag>900"  ]
-[tb_eval  exp="f.LBFlag+=1"  name="LBFlag"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_tyrano_code]
-[if exp=" f.lookBack < (f.hour * 100) + f.minute "]
-[if exp="f.LBFlag == 1"]
-[tb_start_text mode=1 ]
-避難中に新たに発表された情報はありません[p]
-[_tb_end_text]
-[else]
-[tb_start_text mode=1 ]
-避難中に発表された情報は以上です[p]
-[_tb_end_text]
-[endif]
-[eval exp="f.LBFlag = 999"]
-[endif]
+;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
-[jump  storage="scene26.ks"  target="*common1"  ]
-*common0
-
-[tb_start_text mode=1 ]
-冒頭のメッセージ[p]
-[_tb_end_text]
+[tb_start_tyrano_code]
+;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+[_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野市の気象情報をお伝えします．[p]
+太郎の実家（赤ピンマーク）は，長野県長野市穂保というところにある．太郎の実家は２階建てだ．[p]
 [_tb_end_text]
 
-*common1
-
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/13/01:12"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
-[tip key="saigaihassei" color=0xffff00 entercolor=0x00ffff mark=true]災害発生情報（穂保）[endtip]
+[html]
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1599.7900211648619!2d138.2703746579414!3d36.68459714595539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbadc91acc6b0e93!2zMzbCsDQxJzA0LjUiTiAxMzjCsDE2JzE3LjMiRQ!5e0!3m2!1sja!2sjp!4v1644405510677!5m2!1sja!2sjp" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" id="mymap"></iframe>
+[endhtml]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[html]
+<p style="position:fixed; bottom:40px; font-size:20px;" id="maplink"><a href='https://goo.gl/maps/hBbtSbx7eXP1geCeA' target='_blank' rel='noopener noreferrer'>"https://goo.gl/maps/hBbtSbx7eXP1geCeA"より</a></p>
+[endhtml]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました（2021/10/13/01:12）[p]
+#太郎
+そういや台風が接近しているんだったな．天気予報を確認しておくか．どれどれ…[p]
 [_tb_end_text]
 
+[iscript]
+const element = document.getElementById('maplink');
+element.remove();
+[endscript]
+
+[iscript]
+const element = document.getElementById('mymap');
+element.remove();
+[endscript]
+
+[tb_image_show  time="1000"  storage="default/iphone-g06dfebebd_1280.png"  width="301"  height="604"  x="64"  y="-2"  _clickable_img=""  name="img_10"  ]
 [tb_start_tyrano_code]
-[tip_show key="saigaihassei"]
+[html]
+<iframe src="https://weathernews.jp/s/topics/201910/110185/" target="_blank rel="noreferrer noopener" width="500" height="500" id="sinrozu"></iframe>
+[endhtml]
 [_tb_end_tyrano_code]
 
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_tyrano_code]
+[html]
+<p style="position:fixed; bottom:40px; font-size:20px;" id="link1"><a href='https://weathernews.jp/s/topics/201910/110185/' target='_blank' rel='noopener noreferrer'>"https://weathernews.jp/s/topics/201910/110185/"より</a></p>
+[endhtml]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+ちょうど土日に直撃か．気をつけないとな．まだ今日は大丈夫そうだな．[p]
+とにかく今日は帰ろう．[p]
+[_tb_end_text]
+
+[l  ]
+[iscript]
+const element = document.getElementById('link1');
+element.remove();
+[endscript]
+
+[iscript]
+const element = document.getElementById('sinrozu');
+element.remove();
+[endscript]
+
+[tb_image_hide  time="1000"  ]
+[tb_ptext_hide  time="1000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
-[tb_start_text mode=1 ]
-その後，祥吾の実家は浸水してしまいました．[p]
-[_tb_end_text]
-
-[jump  storage="scene_result.ks"  target="*hani"  ]
+[jump  storage="scene3.ks"  target="*start"  ]
 [s  ]
