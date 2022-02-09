@@ -3,12 +3,11 @@
 *start
 
 [tb_start_tyrano_code]
-[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" role="sleepgame" auto_next=no]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" auto_next=no]
+;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
 
 [_tb_end_tyrano_code]
 
@@ -26,10 +25,10 @@
 [tb_eval  exp="f.minute=40"  name="minute"  cmd="="  op="t"  val="40"  val_2="undefined"  ]
 [tb_eval  exp="f.nextHour=10"  name="nextHour"  cmd="="  op="t"  val="10"  val_2="undefined"  ]
 [tb_image_hide  time="100"  ]
-[tb_image_show  time="1000"  storage="default/大雨注意報.png"  width="357"  height="292"  x="431"  y="191"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/大雨注意報.png"  width="357"  height="292"  x="431"  y="191"  _clickable_img=""  name="img_13"  ]
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで長野市の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -37,7 +36,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました．[p]
+が発表されました．（10/12/07:40）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -50,7 +49,31 @@
 内容について確認してみましょう。[p]
 [_tb_end_text]
 
-[call  storage="quiz.ks"  target="*quiz_ooamechuui"  ]
+[tb_image_hide  time="1000"  ]
+[jump  storage="quiz.ks"  target="*quiz_ooamechuui"  ]
+*saikai
+
+[tb_image_show  time="1000"  storage="default/洪水注意報.png"  width="366"  height="298"  x="393"  y="164"  _clickable_img=""  name="img_22"  ]
+[tb_start_text mode=1 ]
+#説明
+ここで長野市の気象情報をお伝えします．[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[tip key="kouzuichuui" color=0xffff00 entercolor=0x0000ff mark=true] 洪水注意報[endtip]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+が発表されました．（10/12/07:40）[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[tip_show key="kouzuichuui"]
+[_tb_end_tyrano_code]
+
+[tb_image_hide  time="1000"  ]
+[jump  storage="quiz.ks"  target="*quiz_kouzuichuui"  ]
+[return  ]
 [glink  color="black"  storage="scene4.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene4.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]
 [tb_start_text mode=4 ]

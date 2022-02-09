@@ -45,7 +45,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで千曲川の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
@@ -64,7 +64,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+が発表されました（10/12/20:36）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -77,7 +77,6 @@
 内容について確認してみましょう。[p]
 [_tb_end_text]
 
-[call  storage="quiz.ks"  target="*quiz_hanranchuui"  ]
 [jump  storage="scene15.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene15.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene15.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]

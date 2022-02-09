@@ -24,4 +24,6 @@ f['lookBack']=0;
 f['LBFlag']=0; 
 f['nextHour']=0; 
 f['arriveTime']=0; 
+f['HinanHajimeHour']=''; 
+f['HinanHajimeMinute']=''; 
 [endscript] 

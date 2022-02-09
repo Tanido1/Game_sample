@@ -55,7 +55,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+が発表されました（10/12/23:03）[p]
 [_tb_end_text]
 
 [jump  storage="scene21.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]

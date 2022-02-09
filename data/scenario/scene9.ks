@@ -55,7 +55,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+（浸水害）が発表されました[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -64,11 +64,9 @@
 
 [tb_start_text mode=1 ]
 #説明
-大雨特別警報（浸水害）について紹介しました。[p]
-内容について確認してみましょう。[p]
+大雨特別警報について紹介しました．[p]
 [_tb_end_text]
 
-[call  storage="quiz.ks"  target="*quiz_hanranchuui"  ]
 [jump  storage="scene9.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene9.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene9.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]

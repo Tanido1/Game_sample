@@ -44,7 +44,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで長野市の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
@@ -64,11 +64,14 @@
 
 [tb_start_text mode=1 ]
 #説明
-氾濫警戒情報について紹介しました。[p]
-内容について確認してみましょう。[p]
+氾濫警戒情報について紹介しました．[p]
 [_tb_end_text]
 
-[call  storage="quiz.ks"  target="*quiz_hanranchuui"  ]
+[iscript]
+const element = document.getElementById('mymap');
+element.remove();
+[endscript]
+
 [jump  storage="scene11.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene11.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene11.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]

@@ -38,29 +38,22 @@
 [jump  storage="scene7.ks"  target="*common1"  ]
 *common0
 
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[tb_start_text mode=1 ]
-がたがた…[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-風がだいぶ強くなってきたな[p]
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで長野市の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/14:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_image_hide  time="10"  ]
+[tb_image_show  time="1000"  storage="default/大雨警報.png"  width="355"  height="290"  x="336"  y="102"  _clickable_img=""  name="img_19"  ]
 [tb_start_tyrano_code]
-[tip key="ooamekeiho" color=0xffff00 entercolor=0x00ffff mark=true]大雨警報（土砂災害・浸水害）[endtip]
+[tip key="ooamekeiho" color=0xffff00 entercolor=0x00ffff mark=true]大雨警報[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+（土砂災害・浸水害）が発表されました[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -69,8 +62,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-大雨警報について紹介しました。[p]
-内容について確認してみましょう。[p]
+大雨警報について再び紹介しました．このように大雨警報は特に警戒すべき事項を標題に明示して「大雨警報（土砂災害）」、「大雨警報（浸水害）」又は「大雨警報（土砂災害、浸水害）」のように発表します[r]ただしニュースなどでは，省略して大雨警報と表記されているかもしれません．[p]
 [_tb_end_text]
 
 [glink  color="black"  storage="scene7.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]

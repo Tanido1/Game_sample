@@ -44,7 +44,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで長野市の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
@@ -55,7 +55,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+が発表されました（2019/10/12/20:45）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

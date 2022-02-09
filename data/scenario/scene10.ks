@@ -68,7 +68,6 @@
 内容について確認してみましょう。[p]
 [_tb_end_text]
 
-[call  storage="quiz.ks"  target="*quiz_hanranchuui"  ]
 [jump  storage="scene10.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene10.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene10.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]

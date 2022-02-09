@@ -7,6 +7,14 @@
 [_tb_end_tyrano_code]
 
 [tb_show_message_window  ]
+[font  size="14"  color="0xffffff"  ]
+[tb_start_tyrano_code]
+
+テスト
+[html]<a href='https://www.jma.go.jp/jma/kishou/know/bosai/riskmap_inundation.html' target='_blank' rel='noopener noreferrer'>詳細情報へのリンク（気象警報・注意報）</a>[endhtml]
+
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #説明
 なお千曲川は洪水予報河川であり，中小河川ではありません．[p]
@@ -105,3 +113,21 @@ element.remove();
 [_tb_end_tyrano_code]
 
 [s  ]
+[tb_start_tyrano_code]
+[ptext layer="1" x="0" y="100" text="(3)文字オブジェクト～。" size="40" color="0xff0000"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[button fix="true" graphic="仮想と現実避難訓練-ロゴ.png" name="info" auto_next="false"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[glink target=site x=200 y=200 size=20 text=ティラノwiki]
+[s]
+* site
+[web url="http://tyrano.wiki.fc2.com/"]
+[s]
+
+
+[_tb_end_tyrano_code]
+

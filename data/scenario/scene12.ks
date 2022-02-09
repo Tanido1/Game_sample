@@ -4,12 +4,11 @@
 
 [layermode  mode="multiply"  color="0x404473"  time="1000"  wait="true"  ]
 [tb_start_tyrano_code]
-;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" role="sleepgame" auto_next=no]
-
+;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_ptext_hide  time="1000"  ]
@@ -52,7 +51,7 @@
 
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/18:00"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
-[tip key="hinankankoku" color=0xffff00 entercolor=0x00ffff mark=true]避難勧告[endtip]
+篠ノ井～豊野地区の千曲川沿川で[tip key="hinankankoku" color=0xffff00 entercolor=0x00ffff mark=true]避難勧告[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]

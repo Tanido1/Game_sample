@@ -44,20 +44,21 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで千曲川の防災気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/23:58"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
-4地点で[tip key="hanranhassei" color=0xffff00 entercolor=0x00ffff mark=true]氾濫発生情報[endtip]
+生田・杭瀬下・立ヶ花で[tip key="hanrankiken" color=0xffff00 entercolor=0x00ffff mark=true]氾濫危険情報[endtip]，千曲川左岸（篠ノ井小森）氾濫発生情報が
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 が発表されました[p]
 [_tb_end_text]
 
+[wait  time="1000"  ]
 [jump  storage="scene23.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene23.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene23.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]

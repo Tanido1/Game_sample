@@ -11,7 +11,7 @@
 [tb_image_show  time="1000"  storage="default/仮想と現実避難訓練-ロゴ.png"  width="752"  height="220"  x="219"  y="82"  _clickable_img=""  name="img_6"  ]
 *title
 
-[button  storage="title_screen.ks"  target="*start"  graphic="Phone-with-START.png"  width="114"  height="232"  x="469"  y="344"  _clickable_img=""  ]
+[glink  color="black"  text="はじめから"  x="75"  y="370"  size="20"  target="*start"  ]
 [glink  color="black"  text="つづきから"  x="75"  y="470"  size="20"  target="*load"  ]
 [s  ]
 *start

@@ -39,30 +39,35 @@
 [jump  storage="scene6.ks"  target="*common1"  ]
 *common0
 
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[tb_start_text mode=1 ]
-がたがた…[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-風がだいぶ強くなってきたな[p]
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで長野市の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/13:40"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_image_show  time="1000"  storage="default/氾濫注意情報.png"  width="243"  height="198"  x="855"  y="50"  _clickable_img=""  name="img_19"  ]
+[tb_start_tyrano_code]
+[html]
+<iframe src="http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html" target="_blank rel="noreferrer noopener" width="800" height="500" id="kansokujyo"></iframe>
+[endhtml]
+[_tb_end_tyrano_code]
+
 [tb_start_tyrano_code]
 千曲川生田観測所より[tip key="hanranchuui" color=0xffff00 entercolor=0x00ffff mark=true] 氾濫注意情報[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+が発表されました(10/12/13:40)，杭瀬下の場所は上の観測所マップを参考にして下さい．"http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html"より[p]
 [_tb_end_text]
+
+[wait  time="2000"  ]
+[tb_image_hide  time="100"  ]
+[iscript]
+const element = document.getElementById('kansokujyo');
+element.remove();
+[endscript]
 
 [tb_start_tyrano_code]
 [tip_show key="hanranchuui"]
@@ -70,7 +75,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-洪水注意報について紹介しました。[p]
+氾濫注意報について紹介しました。[p]
 内容について確認してみましょう。[p]
 [_tb_end_text]
 

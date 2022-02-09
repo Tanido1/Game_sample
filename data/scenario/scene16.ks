@@ -51,11 +51,11 @@
 
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/20:42"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
-[tip key="saigaihassei" color=0xffff00 entercolor=0x00ffff mark=true]災害発生情報（篠ノ井横田）[endtip]
+[tip key="saigaihassei" color=0xffff00 entercolor=0x00ffff mark=true]災害発生情報[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+（篠ノ井横田）が発表されました（2021/10/12/20:42）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -65,10 +65,8 @@
 [tb_start_text mode=1 ]
 #説明
 災害発生情報について紹介しました。[p]
-内容について確認してみましょう。[p]
 [_tb_end_text]
 
-[call  storage="quiz.ks"  target="*quiz_hanranchuui"  ]
 [jump  storage="scene16.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene16.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene16.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]

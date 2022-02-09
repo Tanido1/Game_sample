@@ -5,19 +5,11 @@
 [tb_hide_message_window  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
-[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" role="sleepgame" auto_next=no]
-[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" auto_next=no]
-
-[_tb_end_tyrano_code]
-
-[tb_start_tyrano_code]
-[html]
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.9054921957269!2d138.27060167274135!3d36.683589308304676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b2cc91a9fe4de5!2zMzbCsDQxJzAwLjgiTiAxMzjCsDE2JzE0LjUiRQ!5e0!3m2!1sja!2sjp!4v1644151136344!5m2!1sja!2sjp" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" id="mymap"></iframe>
-[endhtml]
+;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
@@ -25,19 +17,34 @@
 太郎の実家（赤ピンマーク）は，長野県長野市穂保というところにある．太郎の実家は２階建てだ．[p]
 [_tb_end_text]
 
+[tb_start_tyrano_code]
+[html]
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1599.7900211648619!2d138.2703746579414!3d36.68459714595539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbadc91acc6b0e93!2zMzbCsDQxJzA0LjUiTiAxMzjCsDE2JzE3LjMiRQ!5e0!3m2!1sja!2sjp!4v1644405510677!5m2!1sja!2sjp" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" id="mymap"></iframe>
+[endhtml]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[html]
+<p style="position:fixed; bottom:40px; font-size:20px;" id="maplink"><a href='https://goo.gl/maps/hBbtSbx7eXP1geCeA' target='_blank' rel='noopener noreferrer'>https://goo.gl/maps/hBbtSbx7eXP1geCeA</a></p>
+[endhtml]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #太郎
 そういや台風が接近しているんだったな．天気予報を確認しておくか．どれどれ…[p]
 [_tb_end_text]
 
 [iscript]
+const element = document.getElementById('maplink');
+element.remove();
+[endscript]
+
+[iscript]
 const element = document.getElementById('mymap');
 element.remove();
 [endscript]
 
-[tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/iphone-g06dfebebd_1280.png"  width="301"  height="604"  x="64"  y="-2"  _clickable_img=""  name="img_12"  ]
-[glink  color="btn_05_black"  storage="scene2.ks"  size="20"  x="348"  y="32"  width=""  height=""  text="ウェザーニュース　https://weathernews.jp/s/topics/201910/110185/　より"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/iphone-g06dfebebd_1280.png"  width="301"  height="604"  x="64"  y="-2"  _clickable_img=""  name="img_10"  ]
 [tb_start_tyrano_code]
 [html]
 <iframe src="https://weathernews.jp/s/topics/201910/110185/" target="_blank rel="noreferrer noopener" width="500" height="500" id="sinrozu"></iframe>
@@ -49,9 +56,15 @@ element.remove();
 とにかく今日は帰ろう．[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_tyrano_code]
+[layopt layer=0 visible=true]
+[ptext layer="0" name="link1" text="ウェザーニュース https://weathernews.jp/s/topics/201910/110185/より" x=550 y=10 color=black]
 
-[_tb_end_text]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[free name="link1" layer="0"]
+[_tb_end_tyrano_code]
 
 [iscript]
 const element = document.getElementById('sinrozu');

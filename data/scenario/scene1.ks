@@ -3,16 +3,24 @@
 *undefined
 
 [cm  ]
+[tb_image_hide  time="1000"  ]
 [bg  storage="背景画像.png"  time="1000"  ]
 [tb_ptext_show  x="47"  y="9"  size="42"  color="0x2e2a2a"  time="1000"  text="2019/10/11/昼"  anim="false"  face="undefined"  edge="0xfff7f7"  shadow="undefined"  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
-[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
+[layopt layer=0 visible=true]
+[image layer="0" name="logo" width="150" x="970" y="660" storage="default/仮想と現実避難訓練-ロゴ.png"]
+
+
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" auto_next=no]
+[button fix="true" storage=tiplist.ks target=tipshow width="85"  height="160" x="970" y="495" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[button fix="true" storage=sumaho.ks target=start width="85"  height="160" x="1070" y="495" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+
 
 [_tb_end_tyrano_code]
 

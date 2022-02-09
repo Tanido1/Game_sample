@@ -5,7 +5,6 @@
 [tb_hide_message_window  ]
 [tb_show_message_window  ]
 [glink  color="black"  storage="hinan.ks"  size="20"  text="避難所に避難"  target="*hinanjoHinan"  x="220"  y="280"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="hinan.ks"  size="20"  text="緊急安全確保"  x="524"  y="281"  width=""  height=""  _clickable_img=""  target="*kinnkyuuAnzen"  ]
 [glink  color="black"  storage="hinan.ks"  size="20"  text="やっぱやめる"  x="853"  y="282"  width=""  height=""  _clickable_img=""  target="*yameru"  ]
 [tb_start_text mode=4 ]
 どうしますか？
@@ -90,6 +89,12 @@
 [s  ]
 *common1_2
 
+[tb_start_tyrano_code]
+[eval exp = "f.hinanHajimeHour = f.hinanStartMinute"]
+[eval exp = "f.hinanHajimeMinute = f.hinanStartMinute"]
+
+[_tb_end_tyrano_code]
+
 [iscript]
 //alert(f.hinanStartMinute);
 [endscript]
@@ -140,13 +145,14 @@ alert("現在時刻より前の時間は選択できません");
 [eval exp="f.hinanStartHour = f.hinanStartHour-24"]
 [eval exp="f.day=13"]
 [endif]
-[emb exp="f.day + '日' + f.hinanStartHour + '時' + f.hinanStartMinute + '分に避難所に到着した'"][p]
+
+[emb exp="f.day + '日' + f.hinanStartHour + '時' + f.hinanStartMinute + '分に避難所に到着した．'"]風が強かったので移動に56分かかった[p]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
 [if exp = " f.hinanJunbi > 5 "]
 [tb_start_text mode=1 ]
-避難持ち出し袋を準備していなかったため，避難に余計に時間がかかってしまった...[p]
+避難持ち出し袋を準備していなかったため，避難に余計に時間がかかってしまった... 25分余計に時間がかかった．[p]
 [_tb_end_text]
 [endif]
 
@@ -178,16 +184,18 @@ alert("現在時刻より前の時間は選択できません");
 *saigaiHassei
 
 [tb_start_text mode=1 ]
-避難中に被災してしまった．[p]
+避難中に災害発生時刻に到達してしまった．[p]
 [_tb_end_text]
 
-[s  ]
-*kinnkyuuAnzen
-
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
-緊急安全確保を行います[p]
+1時8分頃に千曲川が越水し，あなたは被災した可能性があります．[p]
+また，１時頃から浅川排水機場付近で浅川の内水氾濫が始まりました[p]
+
 [_tb_end_text]
 
+[jump  storage="scene_result.ks"  target="*asakawa"  ]
 [s  ]
 *yameru
 

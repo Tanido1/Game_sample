@@ -7,7 +7,7 @@
 [_tb_end_text]
 
 [tb_web  url="https://www.gov-online.go.jp/useful/article/201507/1.html"  ]
-[jump  storage="quiz.ks"  target=""  ]
+[jump  storage="quiz.ks"  target="*避難注意点リンク終了"  ]
 *避難情報など
 
 [tb_web  url="http://www.bousai.go.jp/oukyu/hinanjouhou/r3_hinanjouhou_guideline/"  ]

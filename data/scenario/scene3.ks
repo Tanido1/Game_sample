@@ -3,12 +3,11 @@
 *start
 
 [tb_start_tyrano_code]
-[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
 ;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" role="sleepgame" auto_next=no]
-[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" auto_next=no]
 
 [_tb_end_tyrano_code]
 
@@ -43,7 +42,7 @@
 [_tb_end_text]
 
 [tb_start_tyrano_code]
-[tip key="saigai" color=0x0000ff entercolor=0x008000 mark=true] 大雨による災害[endtip]
+[tip key="saigai" color=0xffff00 entercolor=0x008000 mark=true] 大雨による災害[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
@@ -73,7 +72,7 @@ element.remove();
 
 [tb_start_tyrano_code]
 #太郎
-[tip key="hazard" color=0x0000ff entercolor=0x008000 mark=true] ハザードマップ[endtip]
+[tip key="hazard" color=0xffff00 entercolor=0x008000 mark=true] ハザードマップ[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
@@ -122,17 +121,16 @@ element.remove();
 [_tb_end_tyrano_code]
 
 [call  storage="quiz.ks"  target="*quiz_hinanhouho"  ]
-[tb_start_tyrano_code]
-[html]
-<iframe src="https://disaportal.gsi.go.jp/maps/?ll=36.687636,138.257904&z=14&base=pale&ls=seamless%7Ctameike_raster%2C0.8%7Cflood_l2_kaokutoukai_kagan%2C0.8%7Cflood_l2_kaokutoukai_hanran%2C0.8%7Cflood_l2_keizoku%2C0.8%7Cflood_list%2C0.8%7Cflood_l1%2C0.8%7Cflood_list_l2%2C0.75%7Cdisaster1&disp=010000011&vs=c1j0l0u0t0h0z0" id="hinanrisk" width="600" height="450" style="margin-left:650px;"></iframe>
-<p>
-[endhtml]
-[_tb_end_tyrano_code]
-
 [tb_start_text mode=1 ]
 #説明
 ではどこに避難すればよいのでしょうか．[p]
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+[html]
+<iframe src="https://disaportal.gsi.go.jp/maps/?ll=36.687636,138.257904&z=14&base=pale&ls=seamless%7Ctameike_raster%2C0.8%7Cflood_l2_kaokutoukai_kagan%2C0.8%7Cflood_l2_kaokutoukai_hanran%2C0.8%7Cflood_l2_keizoku%2C0.8%7Cflood_list%2C0.8%7Cflood_l1%2C0.8%7Cflood_list_l2%2C0.75%7Cdisaster1&disp=010000011&vs=c1j0l0u0t0h0z0" id="hinanrisk" width="600" height="450" style="margin-left:650px;"></iframe>
+[endhtml]
+[_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
 [html]
@@ -197,7 +195,7 @@ element.remove();
 あとは今後の情報に注意しながらすごそう．テレビも一応つけておくか．[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/テレビ台風情報.png"  width="411"  height="336"  x="405"  y="136"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/テレビ台風情報.png"  width="315"  height="257"  x="411"  y="203"  _clickable_img=""  ]
 [tb_start_text mode=1 ]
 #説明
 これから時間経過に伴い次々と情報がテレビやメールなどから発表されていきます．主に長野市に実際に発表された情報です.[p]

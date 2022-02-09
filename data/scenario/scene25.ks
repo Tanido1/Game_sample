@@ -44,14 +44,14 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/13/1:10"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_text mode=1 ]
-浅川排水機場付近で浅川の内水氾濫が発生しました[p]
+・・・[p]
+
 [_tb_end_text]
 
 [jump  storage="scene25.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
