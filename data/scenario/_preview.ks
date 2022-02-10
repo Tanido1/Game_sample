@@ -2,36 +2,70 @@
 
 [mask time=10]
 [mask_off time=10]
-*start
+*undefined
 
 [cm  ]
-[button  storage=""  target=""  graphic="infoMenu.jpg"  width="1600"  height="910"  x="0"  y="0"  _clickable_img=""  name="img_2"  ]
-[button  storage="sumaho.ks"  target="*back"  graphic="backtogame.png"  width="128"  height="128"  x="20"  y="20"  _clickable_img=""  name="img_3"  ]
-[glink  color="red"  storage="hinanjoInfo.ks"  size="20"  x="180"  y="200"  width="250"  height=""  text="避難所開設情報"  _clickable_img=""  target="*start"  ]
-[glink  color="blue"  storage="happyouInfo.ks"  size="20"  x="754"  y="200"  width="250"  height=""  text="発表情報"  _clickable_img=""  target="*start"  ]
-[glink  color="green"  storage="kikikuruInfo.ks"  size="20"  x="179"  y="297"  width="250"  height=""  text="危険度分布(キキクル)"  _clickable_img=""  target="*start"  ]
-[glink  color="pink"  storage="riverInfo.ks"  size="20"  x="755"  y="293"  width="250"  height=""  text="川の情報"  _clickable_img=""  target="*start"  ]
-[glink  color="white"  storage="sonota.ks"  size="20"  x="463"  y="392"  width="250"  height=""  text="その他の情報"  _clickable_img=""  target="*start"  ]
-[s  ]
-*hinanjo
+[tb_image_hide  time="1000"  ]
+[bg  storage="背景画像.png"  time="1000"  ]
+[tb_ptext_show  x="47"  y="9"  size="42"  color="0x2e2a2a"  time="1000"  text="2019/10/11/昼"  anim="false"  face="undefined"  edge="0xfff7f7"  shadow="undefined"  ]
+[tb_show_message_window  ]
+[tb_start_tyrano_code]
+[layopt layer=0 visible=true]
+[image layer="0" name="logo" width="150" x="970" y="660" storage="default/仮想と現実避難訓練-ロゴ.png"]
 
-*happyouJouhou
 
-*kikikuru
+[_tb_end_tyrano_code]
 
-*sonotta
+[tb_start_tyrano_code]
+[button fix="true" storage=tiplist.ks target=tipshow width="85"  height="160" x="970" y="495" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
+[_tb_end_tyrano_code]
 
+[tb_start_tyrano_code]
+[button fix="true" storage=sumaho.ks target=start width="85"  height="160" x="1070" y="495" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+
+
+[_tb_end_tyrano_code]
+
+[chara_show  name="sakiyama"  time="1000"  wait="true"  storage="chara/2/sakiyama01.png"  width="340"  height="834"  left="274"  top="-4"  reflect="false"  ]
 [tb_start_text mode=1 ]
-・ハザードマップ情報[p]
-表示：[p]
-太郎の実家の場所（グーグルマップ）[p]
-避難ルート例　グーグルマップ[p]
-重ねるハザードマップ[p]
-リンク：ハザードマップポータルサイト，浸水ナビ，[p]
+#太郎
+私の名前は近藤翔瑚．大学3年生だ．[p]
+#太郎
+今は大学の近くで一人暮らしをしている．[p]
+[_tb_end_text]
+
+[quake  time="150"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+ブーブー[p]
 
 [_tb_end_text]
 
-*back
+[tb_start_text mode=1 ]
+#太郎
+お母さんから電話だ．なんだろ珍しい．[p]
 
-[cm  ]
-[awakegame  variable_over="true"  bgm_over="true"  ]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#お母さん
+あ，もしもし，太郎？．今週の土日って実家に帰ってこれる？[p]
+#太郎
+今週の土日？大丈夫だよ．いきなりどうしたの？[p]
+#お母さん
+おばあちゃんが急に倒れちゃって，今入院してるの．[p]
+#太郎
+本当に？．大丈夫なの？[p]
+#お母さん
+詳しい検査はまだだけど．またいつ容態が悪化するかわからないから帰れるなら帰ってきなさい[p]
+#太郎
+わかった[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#説明
+今週の土日はおばあちゃんの家に急遽かえることとなった[p]
+[_tb_end_text]
+
+[chara_hide  name="sakiyama"  time="1000"  wait="true"  pos_mode="true"  ]
+[jump  storage="scene2.ks"  target="*start"  cond=""  ]
+[s  ]
