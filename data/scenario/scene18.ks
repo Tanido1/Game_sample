@@ -39,17 +39,13 @@
 *common0
 
 [tb_start_text mode=1 ]
-冒頭のメッセージ[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここで千曲川の情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/20:50"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/20:50"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 千曲川左岸（篠ノ井横田）で[tip key="hanranhassei" color=0xffff00 entercolor=0x00ffff mark=true]氾濫発生情報[endtip]
 [_tb_end_tyrano_code]

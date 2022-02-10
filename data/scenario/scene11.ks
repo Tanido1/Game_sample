@@ -45,12 +45,12 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで千曲川の気象情報をお伝えします．[p]
+ここで千曲川の情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/17:32"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/17:32"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 千曲川杭瀬下観測所より[tip key="hantankeikai" color=0xffff00 entercolor=0x00ffff mark=true]氾濫警戒情報[endtip]
 [_tb_end_tyrano_code]

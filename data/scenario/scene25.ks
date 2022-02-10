@@ -48,7 +48,7 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/13/1:10"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/13/1:10"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_text mode=1 ]
 ・・・[p]
 

@@ -46,7 +46,7 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/14:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/14:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_image_hide  time="10"  ]
 [tb_image_show  time="1000"  storage="default/大雨警報.png"  width="355"  height="290"  x="336"  y="102"  _clickable_img=""  name="img_19"  ]
 [tb_start_tyrano_code]
@@ -66,6 +66,7 @@
 大雨警報について再び紹介しました．このように大雨警報は特に警戒すべき事項を標題に明示して「大雨警報（土砂災害）」、「大雨警報（浸水害）」又は「大雨警報（土砂災害、浸水害）」のように発表します[r]ただしニュースなどでは，省略して大雨警報と表記されているかもしれません．[p]
 [_tb_end_text]
 
+[jump  storage="scene7.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene7.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene7.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]
 [tb_start_text mode=4 ]

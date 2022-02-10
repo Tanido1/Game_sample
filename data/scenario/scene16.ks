@@ -20,6 +20,10 @@
 [jump  storage="scene16.ks"  target="*common0"  cond="f.hinanFlag=='false'"  ]
 [jump  storage="scene16.ks"  target="*common0"  cond="f.LBFlag>900"  ]
 [tb_eval  exp="f.LBFlag+=1"  name="LBFlag"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+（篠ノ井横田）が発表されました（2019/10/12/20:42）[p]
+[_tb_end_text]
+
 [tb_start_tyrano_code]
 [if exp=" f.lookBack < (f.hour * 100) + f.minute "]
 [if exp="f.LBFlag == 1"]
@@ -49,14 +53,10 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/20:42"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/20:42"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 [tip key="saigaihassei" color=0xffff00 entercolor=0x00ffff mark=true]災害発生情報[endtip]
 [_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-（篠ノ井横田）が発表されました（2021/10/12/20:42）[p]
-[_tb_end_text]
 
 [tb_start_tyrano_code]
 [tip_show key="saigaihassei"]

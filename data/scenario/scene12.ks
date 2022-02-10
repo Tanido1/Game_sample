@@ -49,13 +49,13 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/18:00"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/1/10/12/18:00"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 篠ノ井～豊野地区の千曲川沿川で[tip key="hinankankoku" color=0xffff00 entercolor=0x00ffff mark=true]避難勧告[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+が発表されました（2019/1/10/12/18:00）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

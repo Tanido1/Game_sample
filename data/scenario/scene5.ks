@@ -59,11 +59,11 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました．(10/12/10:56)[p]
+（土砂災害）が発表されました．(10/12/10:56)[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
-[tip_show key="kouzuichuui"]
+[tip_show key="ooamekeiho"]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
@@ -84,6 +84,10 @@
 [tb_start_tyrano_code]
 [tip_show key="kouzuikeiho"]
 [_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+洪水警報について紹介しました．[p]
+[_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
 [jump  storage="scene5.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
@@ -106,7 +110,7 @@
 [glink  color="black"  storage="scene5.ks"  size="20"  text="ネットで情報を見る"  target="*net"  x="217"  y="274"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="scene5.ks"  size="20"  text="待つ"  target="*nextScene"  x="760"  y="271"  width=""  height=""  _clickable_img=""  ]
 [tb_start_text mode=4 ]
-次の防災気象情報が発令されるまで待ちますか？ネットの情報を見て避難判断しますか？
+次の防災気象情報が発表されるまで待ちますか？ネットの情報を見て避難判断しますか？
 
 [_tb_end_text]
 

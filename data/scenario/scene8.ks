@@ -45,8 +45,9 @@
 
 *common1
 
+[tb_image_hide  time="1000"  ]
 [tb_image_show  time="1000"  storage="default/氾濫注意情報.png"  width="354"  height="289"  x="789"  y="70"  _clickable_img=""  name="img_18"  ]
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/14:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/14:57"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 [html]
 <iframe src="http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html" target="_blank rel="noreferrer noopener" width="800" height="500" id="kansokujyo"></iframe>
@@ -60,7 +61,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-千曲川杭瀬下観測所より氾濫注意情報が発表されました（10/12/14:39）[p]
+千曲川杭瀬下観測所より氾濫注意情報が発表されました（10/12/14:57）[p]
 [_tb_end_text]
 
 [iscript]

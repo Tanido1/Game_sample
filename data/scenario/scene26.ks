@@ -49,25 +49,18 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/13/01:12"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/13/01:12"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 [tip key="saigaihassei" color=0xffff00 entercolor=0x00ffff mark=true]災害発生情報（穂保）[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました（2021/10/13/01:12）[p]
+が発表されました（2019/10/13/01:12）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
 [tip_show key="saigaihassei"]
 [_tb_end_tyrano_code]
 
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
-[tb_start_text mode=1 ]
-その後，祥吾の実家は浸水してしまいました．[p]
-[_tb_end_text]
-
-[jump  storage="scene_result.ks"  target="*hani"  ]
+[jump  storage="scene_result.ks"  target="*start"  ]
 [s  ]

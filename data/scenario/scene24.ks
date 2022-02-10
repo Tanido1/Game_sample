@@ -39,23 +39,19 @@
 *common0
 
 [tb_start_text mode=1 ]
-冒頭のメッセージ[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
 #説明
 ここで長野市の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/13/0:57"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/13/0:57"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 [tip key="tokubetsukeiho" color=0xffff00 entercolor=0x00ffff mark=true]大雨特別警報[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-（土砂災害）が発表されました（2021/10/13/0:57）[p]
+（土砂災害）が発表されました（2019/10/13/0:57）[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

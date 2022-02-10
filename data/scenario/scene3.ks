@@ -72,7 +72,6 @@ element.remove();
 [endscript]
 
 [tb_start_tyrano_code]
-#太郎
 [tip key="hazard" color=0xffff00 entercolor=0x008000 mark=true] ハザードマップ[endtip]
 [_tb_end_tyrano_code]
 
@@ -114,7 +113,7 @@ element.remove();
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-について，太郎はどんな避難行動をとるべきなのでしょうか．[p]
+について，祥吾はどんな避難行動をとるべきなのでしょうか．[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

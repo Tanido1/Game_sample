@@ -4,7 +4,7 @@
 
 [tb_hide_message_window  ]
 [tb_show_message_window  ]
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0xffffff"  time="1000"  text="2021/10/12/13:40"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0xffffff"  time="1000"  text="2019/10/12/13:40"  ]
 [tb_start_tyrano_code]
 千曲川生田観測所より[tip key="hanranchuui" color=0xffff00 entercolor=0x00ffff mark=true] 氾濫注意情報[endtip]
 [_tb_end_tyrano_code]

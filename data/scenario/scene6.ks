@@ -41,12 +41,12 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野市の気象情報をお伝えします．[p]
+ここで千曲川の情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/13:40"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/13:40"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_image_show  time="1000"  storage="default/氾濫注意情報.png"  width="243"  height="198"  x="855"  y="50"  _clickable_img=""  name="img_19"  ]
 [tb_start_tyrano_code]
 [html]
@@ -59,7 +59,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました(10/12/13:40)，杭瀬下の場所は上の観測所マップを参考にして下さい．"http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html"より[p]
+が発表されました(10/12/13:40)，生田の場所は上の観測所マップを参考にして下さい．"http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html"より[p]
 [_tb_end_text]
 
 [wait  time="2000"  ]

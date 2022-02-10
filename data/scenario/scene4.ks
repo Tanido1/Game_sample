@@ -21,7 +21,7 @@
 もう朝か...[p]
 [_tb_end_text]
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/07:40"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/07:40"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_eval  exp="f.hour=7"  name="hour"  cmd="="  op="t"  val="7"  val_2="undefined"  ]
 [tb_eval  exp="f.minute=40"  name="minute"  cmd="="  op="t"  val="40"  val_2="undefined"  ]
 [tb_eval  exp="f.nextHour=10"  name="nextHour"  cmd="="  op="t"  val="10"  val_2="undefined"  ]
@@ -91,7 +91,7 @@
 [glink  color="black"  storage="scene4.ks"  size="20"  text="ネットで情報を見る"  target="*net"  x="217"  y="274"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="scene5.ks"  size="20"  text="待つ"  target="*start"  x="760"  y="271"  width=""  height=""  _clickable_img=""  ]
 [tb_start_text mode=4 ]
-次の防災気象情報が発令されるまで待ちますか？ネットの情報を見て避難判断しますか？
+次の防災気象情報が発令されるまで待ちますか？ネット（INFO）の情報を見て避難判断しますか？
 
 [_tb_end_text]
 

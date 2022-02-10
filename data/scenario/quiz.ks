@@ -45,7 +45,7 @@
 
 [tb_start_tyrano_code]
 [html]
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.9054921957269!2d138.27060167274135!3d36.683589308304676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b2cc91a9fe4de5!2zMzbCsDQxJzAwLjgiTiAxMzjCsDE2JzE0LjUiRQ!5e0!3m2!1sja!2sjp!4v1644151136344!5m2!1sja!2sjp" width="550" height="500" style="border:0;margin-left:850px;" allowfullscreen="" loading="lazy" id="hikakumap"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1599.7900211648619!2d138.2703746579414!3d36.68459714595539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbadc91acc6b0e93!2zMzbCsDQxJzA0LjUiTiAxMzjCsDE2JzE3LjMiRQ!5e0!3m2!1sja!2sjp!4v1644405510677!5m2!1sja!2sjp" width="600" height="500" style="border:0;margin-left:850px;" allowfullscreen="" loading="lazy" id="hikakumap"></iframe>
 [endhtml]
 [_tb_end_tyrano_code]
 
@@ -55,17 +55,9 @@
 [endhtml]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
-出典：ハザードマップポータルサイト[p]
-[_tb_end_text]
-
 [tb_start_text mode=4 ]
 #説明
 重ねる
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -75,9 +67,14 @@
 [tb_start_text mode=1 ]
 #説明
 を見てみましょう．[p]
-太郎の実家は千曲川が氾濫した場合，最大で10ｍ以上の浸水リスクがあることがわかります[p]
-また，家屋倒壊想定区域の近辺にいることがわかります．[p]
+祥吾の実家は千曲川が氾濫した場合，最大で10ｍ以上の浸水リスクがあることがわかります[p]
+また，家屋倒壊等想定区域の近辺にいることがわかります．[p]
 [_tb_end_text]
+
+[iscript]
+const element = document.getElementById('hikakumap');
+element.remove();
+[endscript]
 
 [iscript]
 const element = document.getElementById('hazard');
@@ -89,7 +86,7 @@ element.remove();
 *quiz_hinanhouho
 
 [tb_start_text mode=1 ]
-太郎が実家にいる時の最も適切な避難方法は？[p]
+祥吾が実家にいる時の最も適切な避難方法は？[p]
 
 [_tb_end_text]
 

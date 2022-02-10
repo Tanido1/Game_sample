@@ -49,9 +49,9 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/18:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/18:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_text mode=1 ]
-千曲川杭瀬下観測所より氾濫危険情報が発表されました[p]
+千曲川杭瀬下観測所より氾濫危険情報が発表されました（2019/10/12/18:39）[p]
 [_tb_end_text]
 
 [jump  storage="scene14.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]

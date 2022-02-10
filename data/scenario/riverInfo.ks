@@ -50,9 +50,14 @@
 
 [button  storage=""  target="*juukyuugou"  graphic="infoMenu.jpg"  width="1600"  height="910"  x="0"  y="0"  _clickable_img=""  name="img_38"  ]
 [button  storage="riverInfo.ks"  target="*start"  graphic="back.png"  width="128"  height="128"  x="20"  y="20"  _clickable_img=""  name="img_39"  ]
-[glink  color="red"  storage="riverInfo.ks"  size="20"  x="180"  y="200"  width="250"  height=""  text="立ヶ花"  _clickable_img=""  target="*tategahana"  ]
-[glink  color="blue"  storage="riverInfo.ks"  size="20"  x="754"  y="200"  width="250"  height=""  text="杭瀬下"  _clickable_img=""  target="*kuiseke"  ]
+[glink  color="red"  storage="riverInfo.ks"  size="20"  x="180"  y="200"  width="250"  height=""  text="立ヶ花観測所（千曲川）"  _clickable_img=""  target="*tategahana"  ]
+[glink  color="blue"  storage="riverInfo.ks"  size="20"  x="754"  y="200"  width="250"  height=""  text="杭瀬下観測所（千曲川）"  _clickable_img=""  target="*kuiseke"  ]
+[glink  color="black"  storage="riverInfo.ks"  size="20"  text="水位観測所の場所"  target="*観測所の場所"  x="522"  y="294"  width=""  height=""  _clickable_img=""  ]
 [s  ]
+*観測所の場所
+
+[tb_web  url="https://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html"  ]
+[jump  storage="riverInfo.ks"  target="*start"  ]
 *tategahana
 
 [tb_start_tyrano_code]

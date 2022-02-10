@@ -49,7 +49,7 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/23:03"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/23:03"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 篠ノ井小森で[tip key="saigaihassei" color=0xffff00 entercolor=0x00ffff mark=true]災害発生情報[endtip]
 [_tb_end_tyrano_code]

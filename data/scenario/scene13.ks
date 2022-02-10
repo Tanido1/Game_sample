@@ -44,18 +44,19 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野市の気象情報をお伝えします．[p]
+ここで千曲川の情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/18:01"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/18:01"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 千曲川生田観測所より[tip key="hanrankiken" color=0xffff00 entercolor=0x00ffff mark=true]氾濫危険情報[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-が発表されました[p]
+が発表されました（2019/10/12/18:01）[p]
+
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -88,7 +89,7 @@
 [glink  color="black"  storage="scene13.ks"  size="20"  text="ネットで情報を見る"  target="*net"  x="217"  y="274"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="scene13.ks"  size="20"  text="待つ"  target="*nextScene"  x="760"  y="271"  width=""  height=""  _clickable_img=""  ]
 [tb_start_text mode=4 ]
-次の防災気象情報が発令されるまで待ちますか？ネットの情報を見て避難判断しますか？
+次の防災気象情報が発表されるまで待ちますか？ネットの情報を見て避難判断しますか？
 
 [_tb_end_text]
 

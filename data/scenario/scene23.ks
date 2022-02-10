@@ -49,7 +49,7 @@
 
 *common1
 
-[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/23:58"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
+[tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2019/10/12/23:58"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 生田・杭瀬下・立ヶ花で[tip key="hanrankiken" color=0xffff00 entercolor=0x00ffff mark=true]氾濫危険情報[endtip]，千曲川左岸（篠ノ井小森）氾濫発生情報が
 [_tb_end_tyrano_code]

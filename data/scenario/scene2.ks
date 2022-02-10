@@ -28,8 +28,8 @@
 
 [tb_start_text mode=1 ]
 #説明
-太郎の実家（赤ピンマーク）は，長野県長野市穂保というところにある．[p]
-太郎の実家は２階建てだ．[p]
+祥吾の実家（赤ピンマーク）は，長野県長野市穂保というところにある．[p]
+祥吾の実家は２階建てだ．[p]
 [_tb_end_text]
 
 [iscript]
@@ -48,10 +48,10 @@ const element = document.getElementById('mymap');
 element.remove();
 [endscript]
 
-[tb_image_show  time="1000"  storage="default/iphone-g06dfebebd_1280.png"  width="301"  height="604"  x="64"  y="-2"  _clickable_img=""  name="img_10"  ]
+[tb_image_show  time="1000"  storage="default/iphone-g06dfebebd_1280.png"  width="301"  height="604"  x="676"  y="15"  _clickable_img=""  name="img_10"  ]
 [tb_start_tyrano_code]
 [html]
-<iframe src="https://weathernews.jp/s/topics/201910/110185/" target="_blank rel="noreferrer noopener" width="700" height="500" id="sinrozu"></iframe>
+<iframe src="https://weathernews.jp/s/topics/201910/110185/" target="_blank rel="noreferrer noopener" width="800" height="500" style="margin-left:600px;" id="sinrozu"></iframe>
 [endhtml]
 [_tb_end_tyrano_code]
 

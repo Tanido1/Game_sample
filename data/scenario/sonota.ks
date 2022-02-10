@@ -6,7 +6,7 @@
 [button  storage=""  target=""  graphic="infoMenu.jpg"  width="1600"  height="910"  x="0"  y="0"  _clickable_img=""  name="img_2"  ]
 [button  storage="sumaho.ks"  target="*start"  graphic="back.png"  width="128"  height="128"  x="20"  y="20"  _clickable_img=""  name="img_3"  ]
 [tb_start_text mode=1 ]
-その他の情報では，ゲーム中に紹介したリンクが主に見られます．[p]
+;その他の情報では，ゲーム中に紹介したリンクが主に見られます．[p]
 [_tb_end_text]
 
 [glink  color="red"  storage="sonota.ks"  size="20"  x="180"  y="200"  width="250"  height=""  text="祥吾の実家の情報"  _clickable_img=""  target="*祥吾の実家の情報"  ]
@@ -42,7 +42,7 @@
 *避難ガイドライン（内閣府防災情報のページ）
 
 [tb_start_text mode=1 ]
-ゲーム中で紹介したリンクを掲載予定.今回は避難ガイドラインへのページへ飛びます．（クリックするととびます））[p]
+;ゲーム中で紹介したリンクを掲載予定.今回は避難ガイドラインへのページへ飛びます．（クリックするととびます））[p]
 [_tb_end_text]
 
 [tb_web  url="http://www.bousai.go.jp/oukyu/hinanjouhou/r3_hinanjouhou_guideline/"  ]

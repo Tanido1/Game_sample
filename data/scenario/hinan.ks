@@ -195,7 +195,7 @@ alert("現在時刻より前の時間は選択できません");
 
 [_tb_end_text]
 
-[jump  storage="scene_result.ks"  target="*asakawa"  ]
+[jump  storage="scene_result.ks"  target="*start"  ]
 [s  ]
 *yameru
 
