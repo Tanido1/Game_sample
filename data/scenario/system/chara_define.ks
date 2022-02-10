@@ -26,4 +26,5 @@ f['nextHour']=0;
 f['arriveTime']=0; 
 f['HinanHajimeHour']=''; 
 f['HinanHajimeMinute']=''; 
+f['riverName']=''; 
 [endscript] 

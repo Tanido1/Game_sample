@@ -138,6 +138,6 @@ element.remove();
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[free name="link1" layer="0"]
+[free name="log" layer="0"]
 [_tb_end_tyrano_code]
 

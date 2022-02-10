@@ -5,11 +5,13 @@
 [tb_hide_message_window  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
-;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="85"  height="160" x="970" y="495" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=sumaho.ks target=start width="85"  height="160" x="1070" y="495" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+
+
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
@@ -25,19 +27,19 @@
 
 [tb_start_tyrano_code]
 [html]
-<p style="position:fixed; bottom:40px; font-size:20px;" id="maplink"><a href='https://goo.gl/maps/hBbtSbx7eXP1geCeA' target='_blank' rel='noopener noreferrer'>"https://goo.gl/maps/hBbtSbx7eXP1geCeA"より</a></p>
+<p style="position:fixed; bottom:40px; font-size:20px;" id="maplink">　<a href='https://goo.gl/maps/hBbtSbx7eXP1geCeA' target='_blank' rel='noopener noreferrer'>"https://goo.gl/maps/hBbtSbx7eXP1geCeA"より</a></p>
 [endhtml]
 [_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#太郎
-そういや台風が接近しているんだったな．天気予報を確認しておくか．どれどれ…[p]
-[_tb_end_text]
 
 [iscript]
 const element = document.getElementById('maplink');
 element.remove();
 [endscript]
+
+[tb_start_text mode=1 ]
+#太郎
+そういや台風が接近しているんだったな．天気予報を確認しておくか．どれどれ…[p]
+[_tb_end_text]
 
 [iscript]
 const element = document.getElementById('mymap');
@@ -47,7 +49,7 @@ element.remove();
 [tb_image_show  time="1000"  storage="default/iphone-g06dfebebd_1280.png"  width="301"  height="604"  x="64"  y="-2"  _clickable_img=""  name="img_10"  ]
 [tb_start_tyrano_code]
 [html]
-<iframe src="https://weathernews.jp/s/topics/201910/110185/" target="_blank rel="noreferrer noopener" width="500" height="500" id="sinrozu"></iframe>
+<iframe src="https://weathernews.jp/s/topics/201910/110185/" target="_blank rel="noreferrer noopener" width="700" height="500" id="sinrozu"></iframe>
 [endhtml]
 [_tb_end_tyrano_code]
 

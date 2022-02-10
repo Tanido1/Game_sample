@@ -3,11 +3,12 @@
 *start
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="85"  height="160" x="970" y="495" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=sumaho.ks target=start width="85"  height="160" x="1070" y="495" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+
 
 [_tb_end_tyrano_code]
 
@@ -50,9 +51,7 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[jump  storage="quiz.ks"  target="*quiz_ooamechuui"  ]
-*saikai
-
+[call  storage="quiz.ks"  target="*quiz_ooamechuui"  ]
 [tb_image_show  time="1000"  storage="default/洪水注意報.png"  width="366"  height="298"  x="393"  y="164"  _clickable_img=""  name="img_22"  ]
 [tb_start_text mode=1 ]
 #説明
@@ -72,8 +71,7 @@
 [_tb_end_tyrano_code]
 
 [tb_image_hide  time="1000"  ]
-[jump  storage="quiz.ks"  target="*quiz_kouzuichuui"  ]
-[return  ]
+[call  storage="quiz.ks"  target="*quiz_kouzuichuui"  ]
 [glink  color="black"  storage="scene4.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]
 [glink  color="black"  storage="scene4.ks"  size="20"  text="避難しない"  x="300"  y="300"  target="*common2"  ]
 [tb_start_text mode=4 ]

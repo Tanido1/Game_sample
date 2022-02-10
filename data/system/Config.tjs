@@ -28,8 +28,8 @@
 ;defaultBgmSlotNum=1
 ;defaultSoundSlotNum=3
 ;configVisible=true
-;configLeft=-1
-;configTop=-1
+;configLeft=1200
+;configTop=665
 ;configThumbnail=true
 ;configThumbnailQuality=middle
 ;configSaveSlotNum=5

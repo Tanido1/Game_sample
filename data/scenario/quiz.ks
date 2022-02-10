@@ -175,7 +175,7 @@ alert(f.q1);
 のような気象警報・注意報は２次細分区域（市区町村）に対して発表されます．[p]
 [_tb_end_text]
 
-[jump  storage="scene4.ks"  target="*saikai"  ]
+[jump  storage="quiz.ks"  target="*returnGame"  ]
 *quiz_kouzuichuui
 
 [tb_start_text mode=1 ]
