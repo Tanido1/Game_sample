@@ -9,7 +9,7 @@
 [glink  color="blue"  storage="happyouInfo.ks"  size="20"  x="754"  y="200"  width="250"  height=""  text="発表情報"  _clickable_img=""  target="*start"  ]
 [glink  color="green"  storage="kikikuruInfo.ks"  size="20"  x="179"  y="297"  width="250"  height=""  text="危険度分布(キキクル)"  _clickable_img=""  target="*start"  ]
 [glink  color="pink"  storage="riverInfo.ks"  size="20"  x="755"  y="293"  width="250"  height=""  text="川の情報"  _clickable_img=""  target="*start"  ]
-[glink  color="white"  storage="sumaho.ks"  size="20"  x="463"  y="392"  width="250"  height=""  text="その他の情報"  _clickable_img=""  ]
+[glink  color="white"  storage="sonota.ks"  size="20"  x="463"  y="392"  width="250"  height=""  text="その他の情報"  _clickable_img=""  target="*start"  ]
 [s  ]
 *hinanjo
 

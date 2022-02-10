@@ -3,11 +3,12 @@
 *start
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="85"  height="160" x="970" y="495" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=sumaho.ks target=start width="85"  height="160" x="1070" y="495" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+
 
 [_tb_end_tyrano_code]
 
@@ -21,7 +22,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#太郎
+#祥吾
 おばあちゃんの容態が心配だ．すぐに病院にいこう[p]
 #説明
 数時間後...[p]
@@ -29,7 +30,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#太郎
+#祥吾
 おばあちゃんの容態は大丈夫そうで安心した．もう帰ってもよさそうだけど，今日・明日は泊まることにしよう[p]
 台風が接近してるから今後の情報に注意しないと...[p]
 大雨が予想されてるから災害のおそれがあるかもしれないし...[p]
@@ -60,7 +61,7 @@
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#太郎
+#祥吾
 うちは千曲川が近いからな特に洪水災害が心配だな．[p]
 
 [_tb_end_text]
@@ -145,9 +146,8 @@ element.remove();
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#太郎
-北部スポーツ・レクリエーションパークへの立ち退き避難が必要だな．[p]
-今後の情報に注意して，避難を考えないとな．[p]
+#祥吾
+北部スポーツ・レクリエーションパークへの立ち退き避難を考えておかないとな．今後の情報に注意して，避難するかを考えないとな．[p]
 [_tb_end_text]
 
 [iscript]

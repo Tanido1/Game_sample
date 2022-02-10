@@ -45,11 +45,17 @@
 
 *common1
 
+[tb_image_show  time="1000"  storage="default/氾濫注意情報.png"  width="354"  height="289"  x="789"  y="70"  _clickable_img=""  name="img_18"  ]
 [tb_ptext_show  x="10"  y="10"  size="30"  color="0x000000"  time="1000"  text="2021/10/12/14:39"  anim="false"  face="undefined"  edge="0xffffff"  shadow="undefined"  ]
-[tb_image_show  time="1000"  storage="default/氾濫注意情報.png"  width="354"  height="289"  x="336"  y="99"  _clickable_img=""  name="img_18"  ]
 [tb_start_tyrano_code]
 [html]
 <iframe src="http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html" target="_blank rel="noreferrer noopener" width="800" height="500" id="kansokujyo"></iframe>
+[endhtml]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[html]
+<p style="position:fixed; bottom:40px; font-size:20px;" id="linkkansoku">　<a href='http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html' target='_blank' rel='noopener noreferrer'>"http://www.hrr.mlit.go.jp/chikuma/bousai/kasen/suii.html"より</a></p>
 [endhtml]
 [_tb_end_tyrano_code]
 
@@ -59,6 +65,11 @@
 
 [iscript]
 const element = document.getElementById('kansokujyo');
+element.remove();
+[endscript]
+
+[iscript]
+const element = document.getElementById('linkkansoku');
 element.remove();
 [endscript]
 

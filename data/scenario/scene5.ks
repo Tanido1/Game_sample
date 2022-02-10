@@ -55,7 +55,7 @@
 
 [tb_image_show  time="1000"  storage="default/大雨警報.png"  width="428"  height="349"  x="304"  y="96"  _clickable_img=""  ]
 [tb_start_tyrano_code]
-[tip key="kouzuichuui" color=0xffff00 entercolor=0x0000ff mark=true] 洪水注意報[endtip]
+[tip key="ooamekeiho" color=0xffff00 entercolor=0x0000ff mark=true] 大雨警報[endtip]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]

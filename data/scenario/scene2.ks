@@ -14,11 +14,6 @@
 
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
-#説明
-太郎の実家（赤ピンマーク）は，長野県長野市穂保というところにある．太郎の実家は２階建てだ．[p]
-[_tb_end_text]
-
 [tb_start_tyrano_code]
 [html]
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1599.7900211648619!2d138.2703746579414!3d36.68459714595539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbadc91acc6b0e93!2zMzbCsDQxJzA0LjUiTiAxMzjCsDE2JzE3LjMiRQ!5e0!3m2!1sja!2sjp!4v1644405510677!5m2!1sja!2sjp" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" id="mymap"></iframe>
@@ -31,14 +26,21 @@
 [endhtml]
 [_tb_end_tyrano_code]
 
+[tb_start_text mode=1 ]
+#説明
+太郎の実家（赤ピンマーク）は，長野県長野市穂保というところにある．[p]
+太郎の実家は２階建てだ．[p]
+[_tb_end_text]
+
 [iscript]
 const element = document.getElementById('maplink');
 element.remove();
 [endscript]
 
 [tb_start_text mode=1 ]
-#太郎
-そういや台風が接近しているんだったな．天気予報を確認しておくか．どれどれ…[p]
+#祥吾
+そういや台風が接近しているんだったな．天気予報を確認しておくか．[p]
+どれどれ…[p]
 [_tb_end_text]
 
 [iscript]

@@ -3,11 +3,12 @@
 *start
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=tiplist.ks target=tipshow width="60"  height="60" x="860" y="410" graphic="tiplist.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=tiplist.ks target=tipshow width="85"  height="160" x="970" y="495" graphic="Phone-with-TIPs.png" role="sleepgame" auto_next=no]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-;[button fix="true" storage=sumaho.ks target=start width="40"  height="60" x="800" y="410" graphic="sumaho.png" role="sleepgame" auto_next=no]
+;[button fix="true" storage=sumaho.ks target=start width="85"  height="160" x="1070" y="495" graphic="Phone-with-INFO.png" role="sleepgame" auto_next=no]
+
 
 [_tb_end_tyrano_code]
 
@@ -44,7 +45,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野市の気象情報をお伝えします．[p]
+ここで千曲川の気象情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
@@ -66,11 +67,6 @@
 #説明
 氾濫警戒情報について紹介しました．[p]
 [_tb_end_text]
-
-[iscript]
-const element = document.getElementById('mymap');
-element.remove();
-[endscript]
 
 [jump  storage="scene11.ks"  target="*nextScene"  cond="f.hinanFlag=='true'"  ]
 [glink  color="black"  storage="scene11.ks"  size="20"  text="避難する"  y="300"  x="100"  target="*hinanNow"  ]

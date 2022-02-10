@@ -71,8 +71,8 @@
 [button  storage=""  target="*juukyuugou"  graphic="infoMenu.jpg"  width="1600"  height="910"  x="0"  y="0"  _clickable_img=""  name="img_43"  ]
 [button  storage="riverInfo.ks"  target="*juukyuugou"  graphic="back.png"  width="128"  height="128"  x="20"  y="20"  _clickable_img=""  name="img_44"  ]
 [tb_start_tyrano_code]
-[button  graphic="&f.riverName"  width="900"  height="620"  x="150"  y="80"]
+[button  graphic="&f.riverName"  width="600"  height="420"  x="310"  y="80"]
 [_tb_end_tyrano_code]
 
-[glink  color="white"  storage="riverInfo.ks"  size="20"  x="300"  y="30"  width=""  height=""  text="※次に行動できる時刻から遡って24時間分表示しています．"  _clickable_img=""  ]
+[glink  color="white"  storage="riverInfo.ks"  size="20"  x="300"  y="30"  width=""  height=""  text="※次に行動できる時刻から遡って24時間分表示しています．"  _clickable_img=""  target="*graphShow"  ]
 [s  ]

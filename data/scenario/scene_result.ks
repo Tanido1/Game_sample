@@ -51,3 +51,7 @@ element.remove();
 再度プレイする場合は右下のメニューボタンからタイトルに戻ってください．[p]
 [_tb_end_text]
 
+[tb_start_tyrano_code]
+[free name="logo" layer="0"]
+[_tb_end_tyrano_code]
+

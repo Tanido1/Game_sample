@@ -44,7 +44,7 @@
 
 [tb_start_text mode=1 ]
 #説明
-ここで長野県の気象情報をお伝えします．[p]
+ここでの千曲川の情報をお伝えします．[p]
 [_tb_end_text]
 
 *common1
