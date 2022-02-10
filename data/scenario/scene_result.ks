@@ -17,13 +17,12 @@
 
 *asakawa
 
-[tb_image_show  time="1000"  storage="default/floodmesh_201910121830.png"  width="1029"  height="531"  name="img_4"  ]
+[tb_image_show  time="1000"  storage="default/floodmesh_201910121830.png"  width="1029"  height="531"  ]
 [tb_start_text mode=1 ]
 気象庁 警報の危険度分布「過去事例（令和元年東日本台風(台風第19号)による大雨）」より，[p]
 避難経路上の浅川は18時半時点で非常に危険な状態になっていました．[p]
 [_tb_end_text]
 
-[tb_image_hide  time="1000"  ]
 *hani
 
 [tb_start_text mode=1 ]
@@ -51,8 +50,4 @@ element.remove();
 以上で本試作は終了です，プレイありがとうございました．[p]
 再度プレイする場合は右下のメニューボタンからタイトルに戻ってください．[p]
 [_tb_end_text]
-
-[tb_start_tyrano_code]
-[free name="logo" layer="0"]
-[_tb_end_tyrano_code]
 

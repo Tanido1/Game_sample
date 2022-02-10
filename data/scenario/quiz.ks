@@ -40,7 +40,7 @@
 *common
 
 [iscript]
-alert(f.q1);
+//alert(f.q1);
 [endscript]
 
 [tb_start_tyrano_code]
@@ -128,7 +128,7 @@ element.remove();
 *common2
 
 [iscript]
-alert(f.q1);
+//alert(f.q1);
 [endscript]
 
 [tb_start_text mode=1 ]
